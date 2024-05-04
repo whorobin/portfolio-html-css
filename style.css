@@ -1,0 +1,209 @@
+body {
+    /* font css link  */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*...........Part :1 header part------------------  */
+
+/* nav part  */
+.nav-title {
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 0;
+}
+
+/*Part :2  banner part  */
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.profile-pic {
+    width: 500px;
+}
+
+/* header background work  */
+.header {
+    background-color: #FFF8F3;
+    /* background img add korte chaile  */
+    background-image: url(images/header_bg.png);
+    /* background repeat off korte chaile */
+    background-repeat: no-repeat;
+    /* background er position thik kore dite chaile */
+    background-position: bottom right;
+}
+
+
+/* Part 3:  main sectin style -----------------*/
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #474747;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.auto-info {
+    text-align: center;
+}
+
+.about {
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 100px 0;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* skills  */
+.skills-container {
+    display: flex;
+    gap: 25px;
+}
+
+.skill {
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Part 4 = Resume section  */
+
+.resume-container {
+    display: flex;
+    gap: 40px
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.resume-container hr {
+    margin: 25px;
+}
+
+.downlode-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*Part : 5 footer style  */
+.social-links a {
+    margin-right: 25px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    width: 100%;
+}
